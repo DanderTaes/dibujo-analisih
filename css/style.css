@@ -1,0 +1,113 @@
+  
+  html {    
+    font-size: clamp(1rem, 2.2vh, 1.5rem);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  header {
+    padding: 1%;
+    height: 5%;
+    
+  }
+  .header__h1 {
+    
+    text-align: center;
+    color: #2e0249;
+    /* padding: var(--PADDING-TB) var(--PADDING-SIDE); */
+}
+  body {
+    height: 100%;
+    /* background-image: linear-gradient(#42275a, #734b6d); */
+    /* background-image: url("imgs/bg.gif");
+   
+    background-repeat: repeat; */
+    background: url("../imgs/bg.gif") repeat-y 100% 100% fixed;
+    background-size: cover;
+    /* background-color: #2E0249; */
+    backdrop-filter: blur(15px);
+    margin: 0;
+    
+  }
+  
+  .navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f1f22;
+  }
+  
+  .navBar ul li {
+    float: left;
+  }
+  
+  .navBar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color to #111 (black) on hover */
+  .navBar ul li a:hover {
+    background-color: #111;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    height: 85%; 
+    margin:0 auto; 
+    padding: 20px;
+  }
+  
+  .title {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgba(46, 2, 73, .70);
+    color: #a90f7a
+    
+  }
+
+  #vertice {
+    grid-column: 1;
+    grid-row: 2/5;
+    
+  }
+
+  #arista {
+    grid-column: 2;
+    grid-row: 2 / 5;
+    
+  }
+  #cara {
+    grid-column: 3;
+    grid-row: 2/5;
+    
+  }
+  .box {
+    border: 0.5vh solid #a90f7a;
+    background-color: rgba(46, 2, 73, .70);
+    display: flex;
+    flex-direction: row ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2%;
+    /* justify-content: space-between ; */
+
+  }
+
+  .gifs {
+    position:relative;
+    
+    width: 100%;
+  }
+ 
+  
+
+/* CSS */
+
