@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/observer.js" defer></script>
+        <title>DT</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html"><h1 class="header__h1">Representacion de un Octoedro</h1></a>
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li><a href="#arista">Arista</a></li>
+                    <li><a href="#vertice">Vertice</a></li>
+                    <li><a href="#cara">Cara</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section" id="arista">
+                <h2>ARISTA</h2>
+                <div class="apartado">   
+                    <div class="standout fade-in">
+                        <p class="standout__p">
+                            hc: altura de la cara. <br><bR>
+                            a: longitud de la arista. <br><bR>
+                            Para averiguar la cota de D'' y A'' utilizamos a. <br><bR>
+                            La altura de los triangluos equilateros creados por las dos diagonales del rombo creado en la proyección horizontal del poliedro, será u/2.
+                        </p>
+                    </div>
+                    <figure class="figure__med fade-in">
+                        <img src="imgs/arista.png" title="arista" alt="arista" width="400"class="apartado__imagen_med">
+                        <figcaption>
+                            <p class="fig__p1">medidas de un octoedro apoyado en una de sus aristas</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure__rep fade-in">
+                        <img src="imgs/di_aristas.jpeg" title="arista" alt="arista" width="900" height="293" class="apartado__imagen_rep">
+                        <figcaption>
+                            <p class="fig__p1">un octoedro apoyado en una arista representado en diedrico</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <hr>
+            <section class="section" id="vertice">
+                <h2>VERTICE</h2>
+                <div class="apartado">   
+                    <div class="standout fade-in">
+                        <p class="standout__p">
+                            a: longitud de la arista. <br><br>
+                            d: la distancia entre vertices opuestos. <br><bR>
+                            La d se calcula multiplicando la arista del poliedro por la raiz cuadrada de 2. <br><br>
+                            La mitad de d es la distancia desde el vertice apoyado a los vertices situados a la mitad del octogono.<br><br>
+                        </p>
+                    </div>
+                    <figure class="figure__med fade-in">
+                        <img src="imgs/vertice.png" title="vertice" alt="vertice" width="550" class="apartado__imagen_med">
+                        <figcaption>
+                            <p class="fig__p3">medidas de un octoedro apoyado en uno de sus vertices</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure__rep fade-in">
+                        <img src="imgs/di_vertice.jpeg" title="vertice" alt="vertice" width="1000" height="393" class="apartado__imagen_rep">
+                        <figcaption>
+                            <p class="fig__p3">un octoedro apoyado en un vertice representado en diedrico</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <hr>
+            <section class="section" id="cara">
+                <h2>CARA</h2>
+                <div class="apartado">   
+                    <div class="standout fade-in">
+                        <p class="standout__p">
+                            <!--sryyyy no queria hacer un text align pq asi es mas facil de editar y no te tienes que poner a buscar el css, añade lo que veas necesario -->
+                            u: altura del poligono de cara a cara. <br><br>
+                            a: longitud de la arista. <br><bR>
+                            igualmente, u se consigue como se explica en la proyección sobre una arista <br><br>
+                            
+                        </p>
+                    </div>
+                    <figure class="figure__med fade-in">
+                        <img src="imgs/cara.png" title="cara" alt="cara" width="480" class="apartado__imagen_med">
+                        <figcaption>
+                            <p class="fig__p3">medidas de un octoedro apoyado en su arista</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure__rep fade-in">
+                        <img src="imgs/di_cara.jpeg" title="cara" alt="cara" width="1000" height="393" class="apartado__imagen_rep">
+                        <figcaption>
+                            <p class="fig__p3">un octoedro apoyado en su arista representado en diedrico</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

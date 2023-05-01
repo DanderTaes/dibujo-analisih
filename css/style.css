@@ -73,13 +73,13 @@
     
   }
 
-  #vertice {
+  #arista {
     grid-column: 1;
     grid-row: 2/5;
     
   }
 
-  #arista {
+  #vertice {
     grid-column: 2;
     grid-row: 2 / 5;
     
