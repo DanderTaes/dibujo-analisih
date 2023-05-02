@@ -31,8 +31,8 @@ img {
     --BGIMAGE-DIV: linear-gradient(to top, var(--BGCOLOR-DIV), var(--BGCOLOR-DIV-FADE4), var(--BGCOLOR-DIV-FADE3));
     --NAV-BGCOLOR: black;
     --FONT-COLOR: rgb(247, 247, 247);
-    --HEADER-BGCOLOR: rgb(68, 68, 68);
-    --HEADER-COLOR: whitesmoke;
+    --HEADER-BGCOLOR: #94107a;
+    --HEADER-COLOR: rgb(46, 2, 73);
     --BORDER-COLOR: white;
     --LINK-COLOR: whitesmoke;
     --LINK-HOVER: rgb(216, 216, 216);
@@ -55,12 +55,12 @@ html {
     scroll-behavior: smooth;
     font-size: var(--FS);
     font-family: var(--FF);
-    background-color: var(--BGCOLOR);
-    background-image: var(--BGIMAGE);
+    /* background-color: var(--BGCOLOR); */
+    background-image: var(--BGIMAGE-DIV);
 }
 
 body {
-    background-color: var(--BODY-BGCOLOR);
+    /* background-color: var(--BODY-BGCOLOR); */
     color: var(--FONT-COLOR);
     min-height: 100vh;
     margin: 0 auto;
@@ -132,7 +132,7 @@ a:active {
     "a b"
     "c b";
     align-items: flex-start;
-    grid-gap: 5em;
+    grid-gap: 3em;
     /* grid-template-columns: 50% 50%;*/
     /* grid-template-rows: 50% 50%; */
 }
@@ -142,8 +142,9 @@ a:active {
     /* grid-column: 1;
     grid-row: 1; */
     grid-area: a;
-    background-color: var(--BGCOLOR-DIV);
-    background-image: var(--BGIMAGE-DIV);
+    /* background-color: var(--BGCOLOR-DIV);
+    background-image: var(--BGIMAGE-DIV); */
+    background-color: rgba(46, 2, 73, .70);
     max-width: 40vw;
     max-height: 100%;
     border-radius: 12px;
@@ -152,6 +153,7 @@ a:active {
 
 .standout__p {
     font-size: 1.5rem;
+    padding: 2%;
 }
 
 
@@ -181,11 +183,6 @@ a:active {
     position: relative;
     text-align: left;
     color: whitesmoke;
-}
-.fig__p3 {
-    position: relative;
-    text-align: left;
-    color: black;
 }
 
 .fade-in {

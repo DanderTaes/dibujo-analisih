@@ -7,7 +7,9 @@
     width: 100%;
   }
   header {
-    padding: 1%;
+    /* background-color: #a90f7a; */
+  
+    padding: 1em;
     height: 5%;
     
   }
@@ -26,7 +28,7 @@
     background: url("../imgs/bg.gif") repeat-y 100% 100% fixed;
     background-size: cover;
     /* background-color: #2E0249; */
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     margin: 0;
     
   }
@@ -69,7 +71,7 @@
     grid-column: 1 / 4;
     grid-row: 1;
     background-color: rgba(46, 2, 73, .70);
-    color: #a90f7a
+    color: white;
     
   }
 
@@ -97,15 +99,40 @@
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 2%;
+    color: white;
+    text-align: center;
     /* justify-content: space-between ; */
+    position: relative;
+    display: inline-block;
 
   }
 
-  .gifs {
-    position:relative;
-    
+  .videos {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .text {
+    position: absolute;
+    height: 100%;
+    text-align: center;    
     width: 100%;
   }
+  .text:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+ }
+
+  .text p {
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(46, 2, 73, .70);
+  }
+
+
  
   
 
