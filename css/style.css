@@ -96,11 +96,12 @@
     background-color: rgba(46, 2, 73, .70);
     display: flex;
     flex-direction: row ;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     padding: 2%;
     color: white;
     text-align: center;
+    
     /* justify-content: space-between ; */
     position: relative;
     display: inline-block;
